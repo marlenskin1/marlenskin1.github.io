@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+
+<channel>
+
+	<title>Marlen Skin</title>
+	<link>https://marlenskin1.github.io/</link>
+	<description>Ručno rađen piling za telo i lice.</description>
+	<item>
+		<title>NOVO:Marlen Sun ulje za telo</title>
+		<link>https://marlenskin1.github.io/pages/products/marlensun.html</link>
+		<description>Marlen Skin Vam predstavlja Marlen Sun ulje za sunčanje.</description>
+	</item>
+	<item>
+		<title>NOVO:Marlen Skin scrubovi.</title>
+		<link>https://marlenskin1.github.io/pages/products.html</link>
+		<description>Marlen Skin Vam predstavlja 8 različitih scrubova za kožu.</description>
+	</item>
+	
+</channel>
+
+</rss>
