@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;300;400;500;600;700;800;900&display=swap');
+* {
+	margin: 0px auto;
+	font-family: "Open Sans", sans-serif;
+}
+body {
+	background-color: #fbe9fb;
+	height: fit-content;
+}
+#wrapper {
+	background-color: white;
+	width: 80%;
+	margin: 0px auto;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+header {	
+	height: 8%;
+	margin-bottom: 10px;
+}
+#logo {
+	float: left;
+	width: 30%;
+	height: 100%;
+}
+img {
+	width: 100%;
+	height: 100%;
+	padding-left: 3%;
+}
+	
+nav {
+	float: right;
+	width: 70%;
+	height: 100%;
+	text-align: center;
+	background-color: #fff;
+}
+.fade-in-fwd {
+	-webkit-animation: fade-in-fwd 0.6s ease-in both;
+	        animation: fade-in-fwd 0.6s ease-in both;
+}
+@-webkit-keyframes fade-in-fwd {
+  0% {
+    -webkit-transform: translateZ(-80px);
+            transform: translateZ(-80px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+.donji {
+	float: none;
+}
+.navmeni li {
+	display: inline-block;
+	padding: 5% 20px;
+	text-decoration: none;
+}
+.navmeni li a {
+	font-weight: 300;
+	font-size: 30px;
+	color: #330033;
+	text-decoration: none; 
+}
+.navmeni li a:hover {
+	color: #b300b3;
+}
+.cleaner {
+	clear: both;
+}
+main {
+	width: 100%;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.drugi {
+	height: 20%
+}
+.marlen {
+	background-image: url('../assets/images/products/img30.jpeg');
+}
+.onamagl {
+	background-image: url('../assets/images/products/img4.jpeg');
+	width: 90%;
+	border-style: outset;
+}
+.marlen, .onamagl{ 
+	background-size: cover;
+	background-position: center;
+}
+.transbox {
+	background-color: rgba(51, 0, 51 ,0.4);
+	padding: 20px;
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+	color: #fbe9fb;
+}
+.transbox h1, p {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+}
+.transbox h1 {
+	font-size: 30px;
+}
+.transbox p {
+	font-size: 20px;
+}
+section {
+	margin-left: 20px;
+}
+.levo1 {
+	width: 40%;
+	float: left;
+}
+.desno {
+	float: left;
+	width: 30%;
+}
+.sredina {
+	margin-left: 50px;
+	float: left;
+	width: 20%;
+}
+figure {
+}
+.levo2 {
+	width: 100%;
+	height: 300px;
+	background-image: url('../assets/images/products/img16.jpeg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.gore2, .dole2 {
+	width: 100%;
+	height: 140px;
+	background-image: url('../assets/images/products/img21.jpeg');
+	background-size: cover;
+	background-position: center;
+}
+.gore2 {
+	background-image: url('../assets/images/products/img21.jpeg');
+}
+.dole2 {
+	margin-top: 15px;
+	background-image: url('../assets/images/products/img12.jpeg');
+}
+figcaption {
+	background-color: rgba(51, 0, 51 ,0.3);
+	text-align: center;
+	color: #fff;
+}
+.levo3 {
+	width: 100%;
+	height: fit-content;
+	position: static;
+	padding: 13px 0px;
+}
+.levo3 a {
+	color: #fff;
+}
+.levo3 a:hover {
+	color: #ffe6ff;
+}
+.levo3 h2 {
+	font-size: 24px;
+}
+.levo3 p {
+	font-size: 20px;
+}
+.gore3 {
+	width: 100%;
+	height: 140px;
+	background-color: #fff;
+	color: #330033;
+	text-align: left;
+}
+.gore3 a {
+	color: #330033;
+}
+.gore3 a:hover {
+	color: #b300b3;
+}
+.dole3 {
+	margin-top: 20px;
+	width: 100%;
+	height: 140px;
+	background-color: #fff;
+	color: #330033;
+	text-align: left;
+}
+.dole3 a {
+	color: #330033;
+}
+.dole3 a:hover {
+	color: #b300b3;
+}
+.naslov {
+	text-align: center;
+	color: #660066;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-style: bolder;
+	font-size: 20px;
+	height: fit-content;
+	margin: 0px auto;
+	padding-top: 20px;
+}
+.txt {
+	text-align: center;
+	width: 100%;
+	padding: 20px 15px;
+}
+.levitxt {
+	float: left;
+	width: 40%;
+	margin-left: 5%;
+}
+.levitxt h2, .desnitxt h2 {
+	text-align: center;
+	color: #660066;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 900;
+	font-style: bolder;
+	font-size: 30px;
+	padding-bottom: 10px;
+	padding-top: 15px;
+}
+.desnitxt {
+	float: right;
+	width: 40%;
+	margin-right: 10%;
+}
+.desnitxt p, .levitxt p {
+	background-color: #fbe9fb;
+	border: 2px solid #a934a9;
+	border-radius: 10px;
+}
+.desnitxt p {
+	padding: 10px 5px;
+}
+.levitxt p {
+	padding: 26px 5px 36px;
+}
+.pozadina {
+	background-image: url('../assets/images/products/img27.jpeg');
+	background-size: cover;
+	background-position: top;
+	height: 100px;
+}
+.pozadina1 {
+	background-image: url('../assets/images/products/img27.jpeg');
+	background-size: cover;
+	background-position: bottom;
+	height: 100px;
+	margin: 0px auto;
+}
+footer {
+	background-color: rgba(153, 0, 153, 0.3);
+	width: 100%;
+	text-align: center;
+}
+footer h2 {
+	font-weight: 400;
+	font-size: 25px;
+}
+footer h1 {
+	font-weight: 400;
+	font-size: 25px;
+	padding-top: 2%;
+}
+.fab, .far, .fas {
+	margin: 0px 5px;
+}
+.kontakt li {
+	display: inline-block;
+	padding: 2% 20px 3%;
+}
+article {
+	width: 20%;
+	margin: 2.5%;
+	float: left;
+	height: fit-content;
+}
+article:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.imgs:hover, .txts:hover, .opis_autor:hover, .slika:hover, .opis:hover  {
+	box-shadow: none;
+}
+.imgs {
+	width: 95%;
+	margin: 2.5%;
+	height: 300px;
+	background-size: cover;
+	background-position: top;
+}
+.marlensun {
+	background-image: url('../assets/images/products/marlensun.jpeg');
+}
+.badem {
+	background-image: url('../assets/images/products/badem.jpeg');
+}
+.kokos {
+	background-image: url('../assets/images/products/kokos.jpeg');
+}
+.aloevera {
+	background-image: url('../assets/images/products/aloevera.jpeg');
+}
+.morski {
+	background-image: url('../assets/images/products/morski.jpeg');
+}
+.vocni {
+	background-image: url('../assets/images/products/vocni.jpeg');
+}
+.kafa {
+	background-image: url('../assets/images/products/kafa.jpeg');
+}
+.vanila {
+	background-image: url('../assets/images/products/vanila.jpeg');
+}
+.txts {
+	width: 95%;
+}
+.txts h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 350;
+    display: inline;
+	position: relative;
+    left: 20%;
+}
+.button {
+	padding: 10px 20px;
+	position: relative;
+	left: 35%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	background-color: white;
+	color: black;
+	border: 2px solid #fbe9fb;	
+}
+.button:hover {
+	background-color: #fbe9fb;
+}
+.aloe h1 {
+	left: 16%;
+}
+.kaf h1 {
+	left: 10.5%
+}
+.slika, .opis {
+	width: 40%;
+	margin: 2.5%;
+}
+.slika {
+	height: 600px;
+	background-size: cover;
+	background-position: top;
+}
+.marlensun1 {
+	background-image: url('../assets/images/products/img31.jpeg');;
+}
+.badem1 {
+	background-image: url('../assets/images/products/img29.jpeg');
+}
+.kokos1 {
+	background-image: url('../assets/images/products/img6.jpeg');
+}
+.aloevera1 {
+	background-image: url('../assets/images/products/img27.jpeg');
+}	
+.morski1 {
+	background-image: url('../assets/images/products/img40.jpg');
+}
+.vocni1 {
+	background-image: url('../assets/images/products/img24.jpeg');
+}
+.kafa1 {
+	background-image: url('../assets/images/products/img15.jpeg');
+}
+.vanila1 {
+	background-image: url('../assets/images/products/img41.jpg');
+}
+.povratak {
+	left: 80%;
+	padding: 15px 30px;
+	font-size: 20px;
+}
+.opis h1, p {
+	margin-bottom: 5%;
+}	
+.opis h2 {
+	margin-bottom: 3%;
+	font-size: 30px;
+}
+.opis h1 {
+	font-weight: 600;
+	font-size: 40px;
+	text-align: left;
+	color: #330033;
+}
+.opis p {
+	font-weight: 300;
+	font-size: 30px;
+	text-align: left;
+	color: #330033;
+}
+.opis  h2 {
+	font-weight: 400;
+}
+.autor {
+	height: 800px;
+	background-image: url('../assets/images/autor/ana_ivanovic.jpg');
+}
+.shadow-pop-tr:hover {
+	animation: slide 2s ease-in-out .5s infinite alternate;
+}
+.shadow-pop-tr {
+	animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+@-webkit-keyframes shadow-pop-tr {
+  100% {
+        box-shadow: 1px -1px #660066, 2px -2px #660066, 3px -3px #660066, 4px -4px #660066, 5px -5px #660066, 6px -6px #660066, 7px -7px #660066, 8px -8px #660066;
+        transform: translateX(-8px) translateY(8px);
+  }
+}
+.shadow-pop-tr:active {
+	animation-play-state: paused;
+}
+.opis_autor {
+	height: 800px;
+	width: 45%;
+	padding: 2%;
+}
+.opis_autor p {
+    font-weight: 300;
+    font-size: 30px;
+	margin: 0px 10%
+}
+.opis_autor h1 {
+    font-weight: 500;
+    font-size: 40px;
+    margin: 10% 0px;
+    background-color: #ffd6ff;
+    text-align: center;
+}
+
+.forma {
+	padding: 10% 0px;
+}
+#upitnik {
+    margin: 5%;
+}
+#contact {
+	background: #F9F9F9;
+	padding: 2%;
+    width: 70%;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#contact h3 {
+	display: block;
+	font-size: 30px;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+#contact h4 {
+	margin: 5px 0 15px;
+	display: block;
+	font-size: 20px;
+	font-weight: 400;	
+}
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="password"],
+#contact input[type="date"] {
+	width: 185%;
+	border: 1px solid #ccc;
+	background: #FFF;
+	margin: 0 0 5px;
+	padding: 10px;
+}
+.submit[type="submit"] {
+	cursor: pointer;
+	width: 100%;
+	border: 2px solid #fbe9fb;
+	font-size: 15px;
+	left: -10%;
+	width: 40%;
+	margin-top: 4%;
+}
+.submit:hover {
+	background: #fbe9fb;
+}
+.submit:active {
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+.onama {
+	margin: 0px auto;
+	color: #000;
+	background-color: #fff;
+}
+.onama ol {
+	/*list-style-type: none;*/
+	text-align: left;
+	padding: 3%;
+	margin-left: 43%;
+}
+.onama li {
+	font-size: 20px;
+	padding: 10px;
+}
+figcaption h1 {
+	padding: 10px;
+	font-size: 35px;
+}
+.onamaimg {
+	background-size: cover;
+	background-position: top;
+	background-image: url('../assets/images/products/img2.jpeg');
+	width: 40%;
+	float: left;
+	height: 500px;
+	padding: 1.1%;
+}
+.galerija {
+    height: 300px;
+    width: 20%;
+    margin: 2.5%;
+    background-color: pink;
+    float: left;
+	background-size: cover;
+	background-position: center;
+}
+.galerija:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	height: 320px;
+	width: 22%;
+	margin: 0px 0px 0px 2.5%;
+}
