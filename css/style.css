@@ -220,7 +220,7 @@ figcaption {
 	width: 40%;
 	margin-left: 5%;
 }
-.levitxt h2, .desnitxt h2 {
+.levitxt h3, .desnitxt h3 {
 	text-align: center;
 	color: #660066;
 	font-family: "Open Sans", sans-serif;
@@ -330,7 +330,7 @@ article:hover {
 .txts {
 	width: 95%;
 }
-.txts h1 {
+.txts h2 {
     font-size: 30px;
     text-align: center;
     font-weight: 350;
@@ -451,7 +451,7 @@ article:hover {
     font-size: 30px;
 	margin: 0px 10%
 }
-.opis_autor h1 {
+.opis_autor h1, .opis_autor h2 {
     font-weight: 500;
     font-size: 40px;
     margin: 10% 0px;
@@ -524,7 +524,7 @@ article:hover {
 	font-size: 20px;
 	padding: 10px;
 }
-figcaption h1 {
+figcaption h2 {
 	padding: 10px;
 	font-size: 35px;
 }
